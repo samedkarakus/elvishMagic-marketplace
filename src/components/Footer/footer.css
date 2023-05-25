@@ -1,0 +1,52 @@
+.footer h5 {
+  font-size: 1.1rem;
+  color: white;
+}
+
+.footer {
+  padding-bottom: 30px;
+  background-color: #000;
+}
+
+.list__item {
+  background: transparent !important;
+  padding-left: 0 !important;
+  border: none !important;
+}
+
+.logo p {
+  font-size: 0.8rem;
+  width: 150px;
+  margin-top: 25px;
+}
+
+.list__item a {
+  text-decoration: none;
+  color: white;
+  opacity: 85%;
+  font-size: 0.9rem;
+}
+
+.list__item a:hover {
+  color: white;
+  opacity: 85%;
+}
+
+::placeholder {
+  color: white;
+  opacity: 85%;
+}
+
+.social__links span a {
+  text-decoration: none;
+  color: #fff;
+  opacity: 85%;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.copyright {
+  font-size: 0.8rem;
+  opacity: 85%;
+  margin: 0;
+}

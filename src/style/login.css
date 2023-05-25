@@ -1,0 +1,68 @@
+.register__btn {
+  outline: none;
+  padding: 7px 25px !important;
+  font-size: 0.9rem;
+  border-radius: 0px 15px 0px 15px !important;
+  border: 1px solid #5142fc !important;
+  background: transparent;
+}
+
+.register__btn:hover {
+  background: linear-gradient(-45deg, #e250e5, #4b50e6);
+}
+
+.register__btn a {
+  text-decoration: none;
+  color: white !important;
+}
+
+.register__btn i {
+  color: white;
+  font-size: 1rem;
+}
+
+.form-group label {
+  font-size: 0.9rem;
+  color: #e0e0e0;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 9px 25px;
+  color: #fff;
+  font-size: 0.8rem;
+  background: #ffffff16;
+  border: 1px solid rgba(221, 221, 221, 0.171);
+  outline: none;
+  border-radius: 5px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.form-group .upload__input {
+  padding: 40px 25px;
+}
+
+.have__account {
+  background: transparent;
+  outline: none;
+}
+
+.have__account a {
+  font-size: 0.9rem;
+  color: white;
+  text-decoration: none;
+}
+
+.have__account a:hover {
+  color: #fff;
+  text-shadow: 1px 1px 10px #fff;
+}

@@ -1,0 +1,11 @@
+.common__section {
+  background: url("../../../assets/images/bg.webp");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 130px;
+}
+
+.common__section h2 {
+  color: #fff;
+}

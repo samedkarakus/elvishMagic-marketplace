@@ -1,0 +1,69 @@
+.hero__section {
+  margin-top: 50px;
+}
+
+.hero__content h2 {
+  line-height: 50px;
+  font-size: 2.5rem;
+}
+
+.hero__content h2 span {
+  margin-bottom: 15px;
+  line-height: 85px;
+  background: linear-gradient(-45deg, #e250e5, #4b50e6);
+  background-size: 100% 100%;
+  background-clip: text;
+  -webkit-text-stroke: 4px transparent;
+  -webkit-text-fill-color: #14141f;
+  display: inline-block;
+  font-size: 3.75rem;
+}
+
+.hero__btns {
+  margin-top: 40px;
+}
+
+.hero__btns a {
+  font-size: 1rem !important;
+}
+
+.create__btn,
+.explore__btn {
+  outline: none;
+  padding: 7px 25px !important;
+  font-size: 0.9rem;
+  border-radius: 0px 15px 0px 15px !important;
+  border: 1px solid #5142fc !important;
+  background: transparent;
+}
+
+.create__btn:hover,
+.explore__btn:hover {
+  background: linear-gradient(-45deg, #e250e5, #4b50e6);
+}
+
+.create__btn a,
+.explore__btn a {
+  text-decoration: none;
+  color: white;
+}
+
+.create__btn i,
+.explore__btn i {
+  color: white;
+  font-size: 1rem;
+}
+
+.hero__btns button a:hover {
+  color: white;
+}
+
+.hero__img {
+  width: 600px;
+  margin-left: auto;
+}
+
+.hero__img img {
+  border-radius: 20px;
+  mix-blend-mode: screen;
+}

@@ -1,0 +1,167 @@
+.header {
+  width: 100%;
+  height: 70px;
+  line-height: 70px;
+  position: fixed;
+  color: #fff;
+  top: 0;
+  left: 0;
+  z-index: 11111111;
+}
+
+.header__shrink {
+  background: #14141fa4;
+  backdrop-filter: blur(3px);
+  /* box-shadow: 2px 2px 3px -2px #e250e5; */
+}
+
+.nav__list {
+  column-gap: 2.7rem;
+  margin-bottom: 0;
+}
+
+.nav__item a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.nav__item a:hover {
+  color: #fff;
+}
+
+.active {
+  color: #e250e5 !important;
+}
+
+.logo img {
+  background: linear-gradient(-45deg, #e250e5, #4b50e6, #e250e5, #4b50e6);
+  background-size: 100% 100%;
+  background-clip: text;
+  -webkit-text-stroke: 3px transparent;
+  -webkit-text-fill-color: #14141f;
+  margin-bottom: 0;
+}
+
+.logo {
+  width: 100px;
+}
+
+.nav__right .btn {
+  padding: 7px 25px;
+  border: 1px solid #4b50e6;
+  border-radius: 0px 15px 0px 15px;
+}
+
+.nav__right .btn:hover {
+  background: linear-gradient(-45deg, #e250e5, #4b50e6);
+}
+
+.nav__right .btn a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 0.8rem;
+}
+
+.nav__right .btn span i {
+  color: white;
+}
+
+.nav__right .btn a:hover {
+  color: #fff;
+}
+
+.mobile__menu {
+  color: #fff;
+  font-size: 1.3rem;
+  display: none;
+}
+
+.close__button {
+  display: none;
+}
+
+.btn__profile {
+  height: 40px;
+  width: 40px;
+}
+
+@media only screen and (max-width: 768px) {
+  .nav__menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(#14141f83, #14141f83);
+    z-index: 222222;
+    display: none;
+  }
+
+  .active__menu {
+    display: block !important;
+  }
+
+  .nav__list {
+    width: 100%;
+    height: 100%;
+    background: #343444;
+    z-index: 333333;
+    flex-direction: column;
+    line-height: 50px;
+  }
+
+  .mobile__menu {
+    display: block;
+  }
+
+  .close__button {
+    display: block !important;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+  }
+
+  .close__button i {
+    color: #fff;
+    font-size: 1.5rem;
+  }
+
+  .btn {
+    padding: 4px 25px !important;
+  }
+
+  .btn a {
+    font-size: 0.7rem !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .hero__img {
+    width: 300px;
+  }
+
+  .hero__section {
+    margin-top: 90px;
+  }
+
+  .hero__content h2 {
+    font-size: 1.5rem;
+    line-height: 40px;
+  }
+
+  .hero__content p {
+    font-size: 0.8rem;
+    line-height: 25px;
+  }
+
+  .create__btn,
+  .explore__btn {
+    padding: 4px 25px !important;
+  }
+
+  .create__btn a,
+  .explore__btn a {
+    font-size: 0.7rem;
+  }
+}

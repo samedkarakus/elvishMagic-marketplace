@@ -1,0 +1,21 @@
+.all__category_filter select,
+.all__items_filter select,
+.filter__right select {
+  padding: 8px 25px;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: #32273fd6;
+  backdrop-filter: blur(2px);
+  border-radius: 5px;
+}
+
+@media only screen and (max-width: 768px) {
+  .all__category_filter select,
+  .all__items_filter select,
+  .filter__right select {
+    padding: 5px 20px;
+    font-size: 0.6rem;
+  }
+}

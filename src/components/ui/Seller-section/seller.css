@@ -1,0 +1,23 @@
+.seller__section__title {
+  color: #fff;
+}
+
+.seller__img {
+  height: 80px;
+  width: 80px;
+}
+
+.seller__img img {
+  border-radius: 100px;
+}
+
+.seller__content h6 {
+  font-size: 1.1rem;
+  color: white;
+}
+
+@media only screen and (max-width: 992px) {
+  .seller__content h6 {
+    font-size: 0.8rem !important;
+  }
+}
